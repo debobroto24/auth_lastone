@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.login_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #E5E6E7;
+}
+.wrap_login{
+    width:100%; 
+    margin-top:120px; 
+}
+.header_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    
+    color: #000000;
+}
+.error_msg{
+    margin-top:20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FC2727;
+}
+ .input_box {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.input_container{
+    padding-top:20px;
+    width:100%; 
+
+    display: flex; 
+    flex-direction: row;
+}
+.input_container .label {
+    width: 30%;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.input_container .input {
+    width: 70%;
+    /* position: absolute; */
+    height: 29px;
+    background: #D9D9D9;
+}
+
+.input_container .input input {
+    width: 100%;
+    border: none;
+    height: 29px;
+    background: #D9D9D9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+
+}
+.input_box .forgot_password{
+    width:100%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+text-align: right;
+text-decoration-line: underline;
+cursor: pointer;
+}
+
+.btn_and_option{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top:20px;
+    flex-direction: column;
+}
+.btn_and_option .login_btn{
+    width: 203px;
+height: 67px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+display: flex; 
+justify-content: center; 
+align-items: center;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+background: #D9D9D9;
+color: #000000;
+cursor: pointer;
+}
+
+
+.btn_and_option .is_sign_up{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+padding-top:20px;
+color: #000000;
+}
+
+.btn_and_option .sign_up_link{
+    text-decoration: underline;
+    cursor: pointer;
+}

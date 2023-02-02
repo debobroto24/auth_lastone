@@ -1,0 +1,44 @@
+.settings .header_text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+
+color: #000000;
+}
+.settings .element_list{
+    width:100%;
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: start;
+    margin-top:40px;
+}
+.settings .element_list span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 50px;
+    
+    color: #000000;
+    
+}
+.settings .element_list button{
+    box-sizing: border-box;
+    background: #E64242;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 39px;
+    padding: 0px 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    
+}
